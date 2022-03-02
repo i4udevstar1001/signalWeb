@@ -1,0 +1,842 @@
+{
+    "scrollDown": {
+        "message": "Vieritä keskustelun loppuun",
+        "description": "Alt text for button to take user down to bottom of conversation, shown when user scrolls up"
+    },
+    "timerOption_10_seconds": {
+        "message": "10 sekuntia",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "view": {
+        "message": "Näytä",
+        "description": "Used as a label on a button allowing user to see more information"
+    },
+    "upgradingDatabase": {
+        "message": "Päivitetään tietokantaa. Tämä saattaa kestää hetken...",
+        "description": "Message shown on the loading screen when we're changing database structure on first run of a new version"
+    },
+    "lastSynced": {
+        "message": "Viimeksi tuotu",
+        "description": "Label for date and time of last sync operation"
+    },
+    "attemptingReconnection": {
+        "message": "Yritetään uudelleen yhteyttä $reconnect_duration_in_seconds$ sekunnissa",
+        "description": "",
+        "placeholders": {
+            "reconnect_duration_in_seconds": {
+                "content": "$1",
+                "example": "10"
+            }
+        }
+    },
+    "unsupportedAttachment": {
+        "message": "Liitetiedoston tyyppiä ei tueta. Tallenna napsauttamalla.",
+        "description": "Displayed for incoming unsupported attachment"
+    },
+    "showSafetyNumber": {
+        "message": "Näytä turvanumero",
+        "description": ""
+    },
+    "androidMessageLengthWarning": {
+        "message": "Signalin Android-käyttäjät näkevät vain ensimmäiset 2000 merkkiä tästä viestistä.",
+        "description": "Warning that long messages could not get received completely by Android clients."
+    },
+    "youChangedTheTimer": {
+        "message": "Sinä asetit katoamisajan: $time$.",
+        "description": "Message displayed when you change the message expiration timer in a conversation.",
+        "placeholders": {
+            "time": {
+                "content": "$1",
+                "example": "10m"
+            }
+        }
+    },
+    "settings": {
+        "message": "Asetukset",
+        "description": "Menu item and header for global settings"
+    },
+    "timerOption_5_seconds_abbreviated": {
+        "message": "5s",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "installComputerName": {
+        "message": "Tämän tietokoneen nimeksi tulee",
+        "description": "Text displayed before the input where the user can enter the name for this device."
+    },
+    "timestamp_m": {
+        "message": "1 minuutti",
+        "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble."
+    },
+    "gotIt": {
+        "message": "Selvä!",
+        "description": "Label for a button that dismisses a dialog. The user clicks it to confirm that they understand the message in the dialog."
+    },
+    "disappearingMessages": {
+        "message": "Katoavat viestit",
+        "description": "Conversation menu option to enable disappearing messages"
+    },
+    "deleteWarning": {
+        "message": "Oletko varma? Tämä poistaa pysyvästi tämän viestin tästä laitteesta.",
+        "description": ""
+    },
+    "showMore": {
+        "message": "Lisätietoja",
+        "description": "Displays the details of a key change"
+    },
+    "verifyHelp": {
+        "message": "Jos haluat varmentaa sinun ja yhteystiedon $name$ välisen salauksen tietoturvan, vertaa ylläolevia numeroita hänen laitteessaan näkyviin numeroihin.",
+        "description": "",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "John"
+            }
+        }
+    },
+    "membersNeedingVerification": {
+        "message": "Turvanumerosi on vaihtunut usean tämän ryhmän jäsenen kanssa sen jälkeen kun olet viimeksi varmentanut ne. Napauttamalla ryhmän jäsentä näet tämän turvanumeron.",
+        "description": "When there are multiple previously-verified group members with safety number changes, a banner will be shown. The list of contacts with safety number changes is shown, and this text introduces that list."
+    },
+    "timerOption_5_minutes_abbreviated": {
+        "message": "5m",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "unsupportedFileType": {
+        "message": "Tiedostotyyppiä ei tueta",
+        "description": "Displayed for outgoing unsupported attachment"
+    },
+    "exportAgain": {
+        "message": "Vie uudelleen",
+        "description": "If user has already exported once, this button allows user to do it again if needed"
+    },
+    "clickToSave": {
+        "message": "Tallenna napsauttamalla",
+        "description": "Hover text for attachment filenames"
+    },
+    "messagesBelow": {
+        "message": "Uusia viestejä alla",
+        "description": "Alt text for button to take user down to bottom of conversation with more than one message out of screen"
+    },
+    "installGeneratingKeys": {
+        "message": "Luodaan avaimia",
+        "description": ""
+    },
+    "resetSession": {
+        "message": "Alusta istunto",
+        "description": "This is a menu item for resetting the session, using the imperative case, as in a command."
+    },
+    "offline": {
+        "message": "Ei yhteyttä",
+        "description": "Displayed when the desktop client has no network connection."
+    },
+    "welcomeToSignal": {
+        "message": "Tervetuloa Signaliin",
+        "description": ""
+    },
+    "checkNetworkConnection": {
+        "message": "Tarkista vekkoyhteytesi",
+        "description": "Obvious instructions for when a user's computer loses its network connection"
+    },
+    "notificationSettingsDialog": {
+        "message": "Näytä saapuneiden viestien ilmoituksissa:",
+        "description": "Explain the purpose of the notification settings"
+    },
+    "timestamp_h": {
+        "message": "1 tunti",
+        "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble."
+    },
+    "timerOption_0_seconds_abbreviated": {
+        "message": "poissa päältä",
+        "description": "Short format indicating current timer setting in the conversation list snippet"
+    },
+    "syncExplanation": {
+        "message": "Tuo kaikkien Signal-yhteystietojen ja -ryhmien tiedot mobiililaitteestasi.",
+        "description": "Explanatory text for sync settings"
+    },
+    "restartSignal": {
+        "message": "Käynnistä Signal uudelleen",
+        "description": "Menu item for restarting the program."
+    },
+    "youLeftTheGroup": {
+        "message": "Olet poistunut ryhmästä.",
+        "description": "Displayed when a user can't send a message because they have left the group"
+    },
+    "deleteMessages": {
+        "message": "Poista viestit",
+        "description": "Menu item for deleting messages, title case."
+    },
+    "confirmMigration": {
+        "message": "Aloita siirtyminen? Et voi lähettää tai vastaanottaa Signal-viestejä tällä ohjelmalla, kun siirtyminen on käynnissä.",
+        "description": "Confirmation dialogue when beginning migration"
+    },
+    "incomingError": {
+        "message": "Virhe saapuvan viestin käsittelyssä.",
+        "description": ""
+    },
+    "delete": {
+        "message": "Poista",
+        "description": ""
+    },
+    "verified": {
+        "message": "Varmennettu",
+        "description": ""
+    },
+    "selectAContact": {
+        "message": "Aloita keskustelu valitsemalla jokin yhteystieto tai ryhmä",
+        "description": ""
+    },
+    "exportError": {
+        "message": "Valitettavasti jokin meni pieleen viemisessä. Aluksi tarkasta että kansio, johon olet viemässä, on tyhjä, sinulla on kirjoitusoikeus siihen ja tilaa on riittävästi vapaana. Sitten lähetä meille virheenkorjausloki, jotta voimme auttaa sinua siirtymisessä.",
+        "description": "Helper text if the user went forward on migrating the app, but ran into an error"
+    },
+    "installConnecting": {
+        "message": "Yhdistetään...",
+        "description": "Displayed when waiting for the QR Code"
+    },
+    "selectedLocation": {
+        "message": "valitsemasi kansio",
+        "description": "Message shown as the export location if we didn't capture the target directory"
+    },
+    "verifyContact": {
+        "message": "Saatat haluta $tag_start$ varmentaa $tag_end$ turvanumerosi tämän yhteystiedon kanssa.",
+        "description": "Use $tag_start$ and $tag_end$ to wrap the word or phrase in this sentence that the user should click on in order to navigate to the verification screen. These placeholders will be replaced with appropriate HTML code.",
+        "placeholders": {
+            "tag_start": {
+                "content": "<a class='verify' href='#'>"
+            },
+            "tag_end": {
+                "content": "</a>"
+            }
+        }
+    },
+    "changedRecently": {
+        "message": "Turvanumerosi yhteystiedon $name$ kanssa on vaihtunut hiljattain. Tämä voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että $name$ on yksinkertaisesti uudelleenasentanut Signalin.",
+        "description": "Shown on confirmation dialog when user attempts to send a message",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "sent": {
+        "message": "Lähetetty",
+        "description": "Label for the time a message was sent"
+    },
+    "migrationWarning": {
+        "message": "Signal Desktopin Chrome-versio on poistumassa käytöstä. Haluaisitko siirtyä uuteen Signal Desktopiin nyt?",
+        "description": "Warning notification that this version of the app has been deprecated and the user must migrate"
+    },
+    "migrate": {
+        "message": "Siirry",
+        "description": "Button label to begin migrating this client to Electron"
+    },
+    "theyChangedTheTimer": {
+        "message": "$name$ asetti katoamisajan: $time$.",
+        "description": "Message displayed when someone else changes the message expiration timer in a conversation.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            },
+            "time": {
+                "content": "$2",
+                "example": "10m"
+            }
+        }
+    },
+    "timestamp_s": {
+        "message": "nyt",
+        "description": "Brief timestamp for messages sent less than a minute ago. Displayed in the conversation list and message bubble."
+    },
+    "changedRecentlyMultiple": {
+        "message": "Turvanumerosi on hiljattain vaihtunut usean tämän ryhmän jäsenen kanssa. Tämä voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että he on yksinkertaisesti uudelleenasentaneet Signalin.",
+        "description": "Shown on confirmation dialog when user attempts to send a message"
+    },
+    "timerOption_1_day": {
+        "message": "1 päivä",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "exporting": {
+        "message": "Ole hyvä ja odota kun tallennamme tietosi. Tämä voi viedä muutaman minuutin. Voit edelleen käyttää Signalia kännykälläsi ja muilla laitteilla samanaikaisesti.",
+        "description": "Message shown on the migration screen while we export data"
+    },
+    "reportIssue": {
+        "message": "Ilmoita ongelmasta",
+        "description": "Link to open the issue tracker"
+    },
+    "newMessage": {
+        "message": "Uusi viesti",
+        "description": "Displayed in notifications for only 1 message"
+    },
+    "nameOnly": {
+        "message": "vain lähettäjän nimi",
+        "description": "Label for setting notifications to display sender name only"
+    },
+    "from": {
+        "message": "Lähettäjä",
+        "description": "Label for the sender of a message"
+    },
+    "deleteConversationConfirmation": {
+        "message": "Poistetaanko tämä keskustelu pysyvästi?",
+        "description": "Confirmation dialog text that asks the user if they really wish to delete the conversation. Answer buttons use the strings 'ok' and 'cancel'. The deletion is permanent, i.e. it cannot be undone."
+    },
+    "unlinkedWarning": {
+        "message": "Jotta voit jatkaa viestittelyä, yhdistä Signal Desktop uudelleen mobiililaitteeseesi.",
+        "description": ""
+    },
+    "debugLogExplanation": {
+        "message": "Tämä loki tullaan julkaisemaan verkossa, jotta kehittäjät ja muut voivat tarkastella sitä. Voit esikatsella ja muokata lokia vielä ennen kuin lähetät sen.",
+        "description": ""
+    },
+    "newPhoneNumber": {
+        "message": "Syötä puhelinnumero lisätäksesi uuden yhteystiedon",
+        "description": "Placeholder for adding a new number to a contact"
+    },
+    "noLongerVerified": {
+        "message": "Turvanumerosi yhteystiedon $name$ kanssa on vaihtunut eikä se ole enää varmennettu. Näytä napsauttamalla.",
+        "description": "Shown in converation banner when user's safety number has changed, but they were previously verified.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "searchForPeopleOrGroups": {
+        "message": "Hae...",
+        "description": "Placeholder text in the search input"
+    },
+    "someRecipientsFailed": {
+        "message": "Virhe joidenkin vastaanottajien kanssa",
+        "description": "When you send to multiple recipients via a group, and the message went to some recipients but not others."
+    },
+    "noNameOrMessage": {
+        "message": "ei nimeä eikä viestiä",
+        "description": "Label for setting notifications to display no name and no message text"
+    },
+    "syncNow": {
+        "message": "Tuo nyt",
+        "description": "Label for a button that syncs contacts and groups from your phone"
+    },
+    "syncFailed": {
+        "message": "Tuonti epäonnistui. Varmista, että tietokoneesi ja puhelimesi ovat kytketty Internettiin.",
+        "description": "Informational text displayed if a sync operation times out."
+    },
+    "unlinked": {
+        "message": "Ei yhdistetty",
+        "description": ""
+    },
+    "installFollowUs": {
+        "message": "Jos haluat saada uutisia ja tietoja usean laitteen tuesta iOS:lle voit <a $a_params$>seurata meitä</a>.",
+        "description": "",
+        "placeholders": {
+            "a_params": {
+                "content": "$1",
+                "example": "href='http://example.com'"
+            }
+        }
+    },
+    "learnMore": {
+        "message": "Lue lisää turvanumeroiden varmentamisesta.",
+        "description": "Text that links to a support article on verifying safety numbers"
+    },
+    "unreadMessages": {
+        "message": "$count$ uutta viestiä",
+        "description": "Text for unread message separator, with count",
+        "placeholders": {
+            "count": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "installTooManyDevices": {
+        "message": "Valitettavasti sinulla on jo liian monta laitetta yhdistettynä. Kokeile poistaa joitakin.",
+        "description": ""
+    },
+    "installSignalLinks": {
+        "message": "Asenna Signal ensin <a $play_store$>Android</a>- tai <a $app_store$>iPhone</a>-puhelimeesi.<br /> Yhdistämme sitten laitteesi toisiinsa ja synkronoimme viestisi.",
+        "description": "Prompt the user to install Signal on their phone before linking",
+        "placeholders": {
+            "play_store": {
+                "content": "$1",
+                "example": "href='http://example.com'"
+            },
+            "app_store": {
+                "content": "$2",
+                "example": "href='http://example.com'"
+            }
+        }
+    },
+    "installSyncingGroupsAndContacts": {
+        "message": "Synkronoidaan ryhmiä ja yhteystietoja",
+        "description": ""
+    },
+    "timerOption_30_minutes_abbreviated": {
+        "message": "30m",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "themeAndroidDark": {
+        "message": "Android (tumma)",
+        "description": "Label text for dark Android theme"
+    },
+    "timerOption_1_minute_abbreviated": {
+        "message": "1m",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "loadingMessages": {
+        "message": "Ladataan viestejä. $count$ ladattu...",
+        "description": "Message shown on the loading screen when we're catching up on the backlog of messages",
+        "placeholders": {
+            "count": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "changedSinceVerified": {
+        "message": "Turvanumerosi yhteystiedon $name$ kanssa on vaihtunut sen jälkeen kun viimeksi varmensit. Tämä voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että $name$ on yksinkertaisesti uudelleenasentanut Signalin.",
+        "description": "Shown on confirmation dialog when user attempts to send a message",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "upgrade": {
+        "message": "Päivitä",
+        "description": "Label text for button to upgrade the app to the latest version"
+    },
+    "yourSafetyNumberWith": {
+        "message": "Turvanumerosi yhteystiedon$name$ kanssa:",
+        "description": "Heading for safety number view",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "John"
+            }
+        }
+    },
+    "showLess": {
+        "message": "Piilota lisätiedot",
+        "description": "Hides the details of a key change"
+    },
+    "theme": {
+        "message": "Teema",
+        "description": "Header for theme settings"
+    },
+    "newIdentity": {
+        "message": "Uusi turvanumero",
+        "description": "Header for a key change dialog"
+    },
+    "installTagline": {
+        "message": "Yksityisyys on mahdollista. Signal tekee siitä helppoa.",
+        "description": "Tagline displayed under 'installWelcome' string on the install page"
+    },
+    "audioNotificationDescription": {
+        "message": "Käytä ilmoitusääniä",
+        "description": "Description for audio notification setting"
+    },
+    "isNotVerified": {
+        "message": "Et ole varmentanut turvanumeroasi yhteystiedon $name$ kanssa.",
+        "description": "Summary state shown at top of the safety number screen if user has not verified contact.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "disconnected": {
+        "message": "Ei yhteyttä",
+        "description": "Displayed when the desktop client cannot connect to the server."
+    },
+    "syncing": {
+        "message": "Tuodaan...",
+        "description": "Label for a disabled sync button while sync is in progress."
+    },
+    "multipleNoLongerVerified": {
+        "message": "Turvanumerosi on vaihtunut usean tämän ryhmän jäsenen kanssa eivätkä ne ole enää varmennettuja. Näytä napsauttamalla.",
+        "description": "Shown in conversation banner when more than one group member's safety number has changed, but they were previously verified."
+    },
+    "acceptNewKey": {
+        "message": "Hyväksy",
+        "description": "Label for a button to accept a new safety number"
+    },
+    "timerOption_12_hours_abbreviated": {
+        "message": "12t",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timestampFormat_M": {
+        "message": "D MMM",
+        "description": "Timestamp format string for displaying month and day (but not the year) of a date within the current year, ex: use 'MMM D' for 'Aug 8', or 'D MMM' for '8 Aug'."
+    },
+    "timerOption_6_hours_abbreviated": {
+        "message": "6t",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "unregisteredUser": {
+        "message": "Numero ei ole rekisteröity.",
+        "description": "Error message displayed when sending to an unregistered user."
+    },
+    "timerOption_1_day_abbreviated": {
+        "message": "1p",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "sync": {
+        "message": "Yhteystiedot",
+        "description": "Label for contact and group sync settings"
+    },
+    "timerOption_1_week": {
+        "message": "1 viikko",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "installGotIt": {
+        "message": "Selvä!",
+        "description": "Button for the user to confirm that they have Signal installed."
+    },
+    "received": {
+        "message": "Vastaanotettu",
+        "description": "Label for the time a message was received"
+    },
+    "youMarkedAsNotVerified": {
+        "message": "Merkitsit turvanumerosi yhteystiedon $name$ kanssa varmentamattomaksi.",
+        "description": "Shown in the conversation history when the user marks a contact as not verified, whether on the safety number screen or by dismissing a banner or dialog.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "isVerified": {
+        "message": "Olet varmentanut turvanumerosi yhteystiedon $name$ kanssa.",
+        "description": "Summary state shown at top of the safety number screen if user has verified contact.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "timerOption_30_seconds": {
+        "message": "30 sekuntia",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "sendMessage": {
+        "message": "Lähetä viesti",
+        "description": "Placeholder text in the message entry field"
+    },
+    "me": {
+        "message": "Minä",
+        "description": "The label for yourself when shown in a group member list"
+    },
+    "mediaMessage": {
+        "message": "Mediaviesti",
+        "description": "Description of a message that has an attachment and no text, displayed in the conversation list as a preview."
+    },
+    "unreadMessage": {
+        "message": "1 lukematon viesti",
+        "description": "Text for unread message separator, just one message"
+    },
+    "expiredWarning": {
+        "message": "Käyttämäsi versio Signal Desktopista on vanhentunut. Viestien lähettäminen ja vastaanottaminen eivät enää toimi, ennen kuin olet päiväittänyt uusimpaan versioon.",
+        "description": "Warning notification that this version of the app has expired"
+    },
+    "fileSizeWarning": {
+        "message": "Valitettavasti kyseinen tiedosto ylittää viesteille asetetun kokorajoituksen.",
+        "description": ""
+    },
+    "deleteMessage": {
+        "message": "Poista tämä viesti",
+        "description": ""
+    },
+    "timerOption_0_seconds": {
+        "message": "pois päältä",
+        "description": "Label for option to turn off message expiration in the timer menu"
+    },
+    "installAndroidInstructions": {
+        "message": "Avaa Signal puhelimessasi ja mene valikosta Asetukset > Yhdistetyt laitteet. Lisätäksesi uuden laitteen napsauta siellä olevaa sinistä nappia ja sitten skannaa yllä näkyvä QR-koodi.",
+        "description": ""
+    },
+    "migrationDisconnecting": {
+        "message": "Katkaistaan...",
+        "description": "Displayed while we wait for pending incoming messages to process"
+    },
+    "invalidNumberError": {
+        "message": "Virheellinen numero",
+        "description": "When a person inputs a number that is invalid"
+    },
+    "installWelcome": {
+        "message": "Tervetuloa Signal Desktopiin",
+        "description": "Welcome title on the install page"
+    },
+    "messageBelow": {
+        "message": "Uusi viesti alla",
+        "description": "Alt text for button to take user down to bottom of conversation with a new message out of screen"
+    },
+    "exportComplete": {
+        "message": "Tietosi on tallennettu seuraavaan paikkaan: <p><b>$location$</b></p> Voit tuoda tietosi kun asennat <a target='_blank' href='https://support.whispersystems.org/hc/en-us/articles/214507138'>uuden Signal Desktopin</a>.",
+        "description": "Message shown on the migration screen when we are done exporting data",
+        "placeholders": {
+            "location": {
+                "content": "$1",
+                "example": "/Users/someone/somewhere"
+            }
+        }
+    },
+    "installConnectionFailed": {
+        "message": "Palvelimeen ei saada yhteyttä.",
+        "description": "Displayed when we can't connect to the server."
+    },
+    "unverify": {
+        "message": "Merkitse varmentamattomaksi",
+        "description": ""
+    },
+    "messageNotSent": {
+        "message": "Viestiä ei lähetetty",
+        "description": "Informational label, appears on messages that failed to send"
+    },
+    "disableNotifications": {
+        "message": "ilmoitukset kokonaan pois päältä",
+        "description": "Label for disabling notifications"
+    },
+    "cancel": {
+        "message": "Peruuta",
+        "description": ""
+    },
+    "unblockToSend": {
+        "message": "Lähettääksesi viestin tälle yhteystiedolle sinun tulee ensin poistaa asettamasi esto.",
+        "description": "Brief message shown when trying to message a blocked number"
+    },
+    "installIHaveSignalButton": {
+        "message": "Minulla on Signal Androidille",
+        "description": "Button for the user to confirm that they have Signal for Android"
+    },
+    "unnamedFile": {
+        "message": "Nimeämätön tiedosto",
+        "description": "Hover text for attachment filenames"
+    },
+    "sendAnyway": {
+        "message": "Lähetä joka tapauksessa",
+        "description": "Used on a warning dialog to make it clear that it might be risky to send the message."
+    },
+    "youMarkedAsVerified": {
+        "message": "Merkitsit turvanumerosi yhteystiedon $name$ kanssa varmennetuksi.",
+        "description": "Shown in the conversation history when the user marks a contact as verified.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "connecting": {
+        "message": "Yhdistetään",
+        "description": "Displayed when the desktop client is currently connecting to the server."
+    },
+    "sessionEnded": {
+        "message": "Suojattu istunto alustettu",
+        "description": "This is a past tense, informational message. In other words, your secure session has been reset."
+    },
+    "installGetStartedButton": {
+        "message": "Aloita",
+        "description": ""
+    },
+    "relink": {
+        "message": "Yhdistä uudelleen",
+        "description": ""
+    },
+    "timerOption_1_week_abbreviated": {
+        "message": "1vk",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_5_seconds": {
+        "message": "5 sekuntia",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "showMembers": {
+        "message": "Näytä jäsenet",
+        "description": ""
+    },
+    "youMarkedAsNotVerifiedOtherDevice": {
+        "message": "Merkitsit turvanumerosi yhteystiedon $name$ kanssa varmentamattomaksi toisessa laitteessa.",
+        "description": "Shown in the conversation history when we discover that the user marked a contact as not verified on another device.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "installSignalLink": {
+        "message": "Asenna <a $a_params$>Signal</a> ensin Android puhelimeesi.<br /> Yhdistämme laitteesi toisiinsa ja synkronoimme viestisi.",
+        "description": "Prompt the user to install Signal on Android before linking",
+        "placeholders": {
+            "a_params": {
+                "content": "$1",
+                "example": "href='http://example.com'"
+            }
+        }
+    },
+    "installLinkingWithNumber": {
+        "message": "Olet yhdistämässä puhelimesi Signalia, joka on rekisteröity numerollasi",
+        "description": "Text displayed before the phone number that the user is in the process of linking with"
+    },
+    "groupMembers": {
+        "message": "Ryhmän jäsenet",
+        "description": ""
+    },
+    "loading": {
+        "message": "Ladataan...",
+        "description": "Message shown on the loading screen before we've loaded any messages"
+    },
+    "newMessages": {
+        "message": "uutta viestiä",
+        "description": "Displayed in notifications for multiple messages"
+    },
+    "newContact": {
+        "message": "Luo uusi yhteystieto napsauttamalla",
+        "description": ""
+    },
+    "theirIdentityUnknown": {
+        "message": "Et ole lähettänyt tai vastaanottanut vielä viestejä tämän yhteystiedon kanssa. Turvanumero on saatavilla vasta ensimmäisen viestin jälkeen.",
+        "description": ""
+    },
+    "voiceMessage": {
+        "message": "Ääniviesti",
+        "description": "Name for a voice message attachment"
+    },
+    "submit": {
+        "message": "Lähetä",
+        "description": ""
+    },
+    "keychanged": {
+        "message": "Turvanumerosi yhteystiedon $name$ kanssa on vaihtunut. Näytä napsauttamalla.",
+        "description": "",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "John"
+            }
+        }
+    },
+    "identityKeyErrorOnSend": {
+        "message": "Turvanumerosi yhteystiedon $name$ kanssa on vaihtunut. Tämä voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että $name$ on yksinkertaisesti uudelleenasentanut Signalin. Saatat haluta varmentaa turvanumerosi tämän yhteystiedon kanssa.",
+        "description": "Shown when user clicks on a failed recipient in the message detail view after an identity key change",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "to": {
+        "message": "Vastaanottajat",
+        "description": "Label for the receiver of a message"
+    },
+    "timerOption_1_hour_abbreviated": {
+        "message": "1t",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "installFinalButton": {
+        "message": "Hyvältä näyttää",
+        "description": "The final button for the install process, after the user has entered a name for their device"
+    },
+    "messageDetail": {
+        "message": "Viestin tiedot",
+        "description": ""
+    },
+    "installNewSignal": {
+        "message": "Asenna uusi Signal Desktop",
+        "description": "When export is complete, a button shows which sends user to Signal Desktop install instructions"
+    },
+    "verify": {
+        "message": "Merkitse varmennetuksi",
+        "description": ""
+    },
+    "timerOption_10_seconds_abbreviated": {
+        "message": "10s",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "nameAndMessage": {
+        "message": "sekä nimi että viesti",
+        "description": "Label for setting notifications to display name and message text"
+    },
+    "failedToSend": {
+        "message": "Lähettäminen joillekin vastaanottajille epäonnistui. Tarkista verkkoyhteytesi.",
+        "description": ""
+    },
+    "ok": {
+        "message": "OK",
+        "description": ""
+    },
+    "identityChanged": {
+        "message": "Turvanumerosi tämän yhteystiedon kanssa on vaihtunut. Tämä voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että yhteystietosi on yksinkertaisesti uudelleenasentanut Signalin. Saatat haluta varmentaa alla näkyvän turvanumeron.",
+        "description": ""
+    },
+    "changedSinceVerifiedMultiple": {
+        "message": "Turvanumerosi on vaihtunut usean tämän ryhmän jäsenen kanssa sen jälkeen kun olet viimeksi varmentanut ne. Tämä voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että he on yksinkertaisesti uudelleenasentaneet Signalin.",
+        "description": "Shown on confirmation dialog when user attempts to send a message"
+    },
+    "export": {
+        "message": "Valitse kansio",
+        "description": "Button to allow the user to export all data from app as part of migration process"
+    },
+    "submitDebugLog": {
+        "message": "Lähetä virheenkorjausloki",
+        "description": "Menu item and header text for debug log modal, title case."
+    },
+    "error": {
+        "message": "Virhe",
+        "description": ""
+    },
+    "changedRightAfterVerify": {
+        "message": "Turvanumero jota yrität varmentaa on vaihtunut. Yritä varmentaa uusi turvanumerosi yhteystiedon $name$ kanssa. Muista, että tämä muutos voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että $name$ on yksinkertaisesti uudelleenasentanut Signalin.",
+        "description": "Shown on the safety number screen when the user has selected to verify/unverify a contact's safety number, and we immediately discover a safety number change",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "timerSetTo": {
+        "message": "Ajastin asetettu: $time$",
+        "description": "Displayed in the conversation list when the timer is updated.",
+        "placeholders": {
+            "time": {
+                "content": "$1",
+                "example": "1w"
+            }
+        }
+    },
+    "timerOption_30_seconds_abbreviated": {
+        "message": "30s",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "exportInstructions": {
+        "message": "Ensimmäinen askel on valita kansio, johon haluat tallentaa tämän ohjelman tiedot. Ne tulevat sisältämään viestihistoriasi ja yksityisiä salausavaimia, joten ole tarkkana, että tallennat sen jonnekin turvalliseen paikkaan.",
+        "description": "Description of the export process"
+    },
+    "notifications": {
+        "message": "Ilmoitukset",
+        "description": "Header for notification settings"
+    },
+    "resend": {
+        "message": "Lähetä uudelleen",
+        "description": ""
+    },
+    "youMarkedAsVerifiedOtherDevice": {
+        "message": "Merkitsit turvanumerosi yhteystiedon $name$ kanssa varmennetuksi toisessa laitteessa.",
+        "description": "Shown in the conversation history when we discover that the user marked a contact as verified on another device.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    }
+}
